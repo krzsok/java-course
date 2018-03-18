@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:dc="http://purl.org/dc/elements/1.1/">
+	<rdf:Description rdf:about="http://www.w3.org/">
+		  
+		<dc:osiedle>
+			<rdf:Bag>
+				<rdf:li>
+					<dc:blok>
+						<dc:l_mieszkan>6</dc:liczba_mieszkan>
+						<dc:l_mieszkancow>17</dc:liczba_mieszkancow>
+						<dc:ul>Dietla</dc:ulica>
+						<dc:numer>15</dc:numer>
+					</dc:blok>
+				</rdf:li>
+				
+				<rdf:li>
+					<dc:blok>
+						<dc:l_mieszkan>10</dc:liczba_mieszkan>
+						<dc:l_mieszkancow>40</dc:liczba_mieszkancow>
+						<dc:ul>Dietla</dc:ulica>
+						<dc:numer>19</dc:numer>
+					</dc:blok>
+				</rdf:li>
+				
+				<rdf:li>
+					<dc:blok>
+						<dc:liczba_mieszkan>12</dc:liczba_mieszkan>
+						<dc:liczba_mieszkancow>45</dc:liczba_mieszkancow>
+						<dc:ul>Dietla</dc:ulica>
+						<dc:numer>19a</dc:numer>
+					</dc:blok>
+				</rdf:li>
+		
+			</rdf:Bag>
+		</dc:osiedle>	 
+	</rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>moja strona www</title>
+</head>
+<body bgcolor="yellow">
+    <script type="text/javascript">
+
+        function Funkcja(zmienna1, zmienna2) {
+            window.document.write("stworzona funkcja");
+            return zmienna1 + zmienna2;
+        }
+
+        function LiczCene(cena1, cena2) {
+            return cena1 + cena2;
+        }
+        var liczba2 = 2;
+        var tekst = "tekst";
+        var concat = tekst + liczba2;
+
+        var tablica = ["tekst1", "tekst2"];
+
+        var tablica2 = new Array(12);
+        tablica2[0] = "danie";
+        tablica2[1] = "sklad";
+        tablica2[2] = "cena";
+        tablica2[3] = "ziemniak";
+        tablica2[4] = tablica2[3];
+        tablica2[5] = 2;
+        tablica2[6] = "mieso";
+        tablica2[7] = tablica2[6];
+        tablica2[8] = 5;
+        tablica2[9] = "ziemniak z miesem";
+        tablica2[10] = tablica2[3] + ", " + tablica2[6];
+        tablica2[11] = LiczCene(tablica2[5],tablica2[8]);
+       
+        
+
+
+        for (var i = 0; i < tablica2.length; i++) {
+            if (i % 3 == 0) {
+                window.document.write("<br>");
+                
+            }
+            window.document.write(tablica2[i] + " ");
+            
+        }
+
+        window.document.getElementById("data1").innerHTML = "data1";
+
+</script>
+
+  
+
+</body>
+</html>
+
